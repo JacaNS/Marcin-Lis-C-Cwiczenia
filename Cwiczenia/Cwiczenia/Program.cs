@@ -10,6 +10,7 @@ namespace Cwiczenia
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
