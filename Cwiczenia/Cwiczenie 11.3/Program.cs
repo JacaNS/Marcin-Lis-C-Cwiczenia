@@ -11,7 +11,7 @@ namespace Cwiczenie_11._3
         static void Main(string[] args)
         {
             int i = 100;
-            while(i-- >= 1)
+            while (i-- >= 1)
             {
                 if (i % 3 != 0 & i % 4 != 0)
                     Console.WriteLine(i);
