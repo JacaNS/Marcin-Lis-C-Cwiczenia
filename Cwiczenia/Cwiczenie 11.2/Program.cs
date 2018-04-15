@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cwiczenia
+namespace Cwiczenie_11._2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            for(int i = 0; i <= 20; i++)
+            int i = 0;
+            while (i <= 19)
             {
-                if(i % 2 != 0)
-                
-                    break;
-                    Console.WriteLine(i);
-                
+                i++;
+                if(i % 2 == 0)
+                    continue;
+                Console.WriteLine(i);
             }
             Console.ReadKey();
         }

@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cwiczenia
+namespace Cwiczenie_11._1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            for(int i = 0; i <= 20; i++)
+            for(int i = 1; i <= 10; i++)
             {
-                if(i % 2 != 0)
-                
+                Console.WriteLine("Dupa");
+                if (i == 8)
+                {
                     break;
-                    Console.WriteLine(i);
-                
+                }
             }
             Console.ReadKey();
-        }
+        }        
     }
 }
